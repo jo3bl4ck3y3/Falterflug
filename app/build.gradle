@@ -1,0 +1,31 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'de.falterflug.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'de.falterflug.app'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+
+    // Fester Schlüssel, damit jede neu gebaute APK die alte ohne Deinstallation ersetzt.
+    signingConfigs {
+        debug {
+            storeFile file('falterflug.keystore')
+            storePassword 'falterflug'
+            keyAlias 'falterflug'
+            keyPassword 'falterflug'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

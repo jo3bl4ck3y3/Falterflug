@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- untere Flügel -->
+    <path android:fillColor="#FFB347" android:strokeColor="#1D3A33" android:strokeWidth="2"
+        android:pathData="M56,56 C68,58 78,66 72,74 C66,80 58,70 56,58 Z" />
+    <path android:fillColor="#FFB347" android:strokeColor="#1D3A33" android:strokeWidth="2"
+        android:pathData="M52,56 C40,58 30,66 36,74 C42,80 50,70 52,58 Z" />
+    <!-- obere Flügel -->
+    <path android:fillColor="#F47A2C" android:strokeColor="#1D3A33" android:strokeWidth="2"
+        android:pathData="M56,53 C68,30 86,34 82,50 C80,58 66,59 56,55 Z" />
+    <path android:fillColor="#F47A2C" android:strokeColor="#1D3A33" android:strokeWidth="2"
+        android:pathData="M52,53 C40,30 22,34 26,50 C28,58 42,59 52,55 Z" />
+    <!-- Körper und Fühler -->
+    <path android:strokeColor="#1D3A33" android:strokeWidth="2" android:strokeLineCap="round"
+        android:pathData="M54,42 C52,37 49,34 46,33 M54,42 C56,37 59,34 62,33" />
+    <path android:fillColor="#1D3A33"
+        android:pathData="M54,40 C56.5,40 57,44 57,54 C57,64 56.5,70 54,70 C51.5,70 51,64 51,54 C51,44 51.5,40 54,40 Z" />
+</vector>

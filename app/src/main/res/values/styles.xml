@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="meadow">#B4DCC0</color>
+    <color name="sky">#E3F3E7</color>
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/meadow</item>
+        <item name="android:statusBarColor">@color/sky</item>
+        <item name="android:navigationBarColor">@color/meadow</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
